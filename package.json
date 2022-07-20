@@ -1,0 +1,13 @@
+{
+  "name": "typescript-fundamental",
+  "version": "1.0.0",
+  "description": "Typescript Course",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "author": "Aakash",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
