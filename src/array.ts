@@ -25,7 +25,7 @@ Array.prototype.myReduce = function (callback, intialValue) {
   let arr = this;
 
   arr.forEach((nextItem, index) => {
-    // skip if initial value is not passes
+    // skip if initial value is not passed
     if (index == 0 && !intialValue) {
       result = nextItem;
       return;
